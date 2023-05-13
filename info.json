@@ -4,6 +4,11 @@
   "title": "Quantum Resource Distribution 2 - nullius compatibility",
   "author": "Qypea",
   "factorio_version": "1.1",
-  "dependencies": ["base >= 1.1", "nullius >= 1.5.25", "QuantumResourceDistribution2 >= 2.5.1"],
+  "dependencies": [
+      "base >= 1.1",
+      "nullius >= 1.5.25",
+      "Dustbin >= 1.1.4",
+      "QuantumResourceDistribution2 >= 2.5.1"
+  ],
   "description": "Nullius compatibility for Quantum Resource Distribution 2."
 }
