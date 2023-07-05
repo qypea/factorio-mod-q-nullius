@@ -22,3 +22,7 @@ data.raw.recipe["vent-stack"].subgroup = "air-treatment"
 data.raw.recipe["QuantumResourceDistributionContainer"].ingredients = {}
 data.raw.recipe["QuantumResourceDistributionCombinator"].ingredients = {}
 data.raw.recipe["vent-stack"].ingredients = {}
+
+-- Enable vent stack recipe without research we don't have in nullius
+-- Note: In order for vent-stack to work with nullius you'll need to patch it to return noicons when no icon is present for an item
+data.raw.recipe["vent-stack"].enabled = true
